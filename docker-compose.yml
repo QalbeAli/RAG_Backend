@@ -1,0 +1,8 @@
+version: '3'
+services:
+  backend:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - GOOGLE_API_KEY=AIzaSyAidgZgpXu9mvAPEMSGGeiRaAdWF05rd5s  # Add environment variables if needed
